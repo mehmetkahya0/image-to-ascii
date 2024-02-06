@@ -13,7 +13,7 @@ document.getElementById('imageForm').addEventListener('submit', function(event) 
     const formData = new FormData();
     formData.append('image', file);
 
-    fetch('http://localhost:3000/convert', {
+    fetch('/convert', {
         method: 'POST',
         body: formData
     })
