@@ -1,0 +1,74 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  --primary-color: #4caf50;
+  --primary-color-dark: #45a049;
+  --secondary-color: #f0f0f0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: large;
+}
+
+#imageForm {
+  margin-top: 5vh;
+  border: 2px solid #040404;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  margin: 5vh auto;
+  background-color: #333;
+  color: white;
+}
+
+#imageForm input[type="submit"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+#imageForm input[type="submit"]:hover {
+  background-color: var(--primary-color-dark);
+  cursor: pointer;
+}
+
+
+
+#imageForm input[type="file"] {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: #2d2d2d;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+#asciiImage {
+  white-space: pre;
+  font-family: monospace;
+  color: #333;
+  background-color: #dddddd;
+  text-align: center;
+}
